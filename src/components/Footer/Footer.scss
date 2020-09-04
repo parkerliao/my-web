@@ -1,0 +1,45 @@
+.footer-container {
+  width: 100%;
+  height: 50vw;
+  background-image: url("../../assets/images/contact.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.context-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-us {
+  font-size: 2.8rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contact-words,
+.made-by {
+  font-size: 1.5rem;
+}
+
+.contact-icons {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-around;
+  font-size: 4rem;
+}
+
+.contact-words {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#phone,
+#email {
+  padding: 0 10px 0 10px;
+}

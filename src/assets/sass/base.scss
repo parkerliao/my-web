@@ -1,6 +1,7 @@
 @import "./_Variables";
 
 *{
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -15,6 +16,7 @@ html body {
   font-weight: 500;
   background: $background-color;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
